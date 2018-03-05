@@ -1,0 +1,87 @@
+
+/*=======================================
+Template Design By chinosoliard
+Author URI : http://www.chinosoliard.com
+========================================*/
+
+.hero-overlay,
+.video-overlay {
+	background-color: #000;
+
+}
+
+.primary-btn:hover,
+.primary-btn:focus,
+.copy-right a:hover,
+.copy-right a:focus,
+.send-msg-btn:hover,
+.send-msg-btn:focus,
+.faq-content .panel-title a:hover,
+.faq-content .panel-title a:focus,
+.faq-content .panel-title a[aria-expanded="true"],
+.faq-content .panel-title a>span,
+.menu ul li a:hover,
+.menu ul li a:focus,
+.single-speakers-info p,
+.single-speakers-social li a:hover,
+.single-speakers-social li a:focus,
+.logo,
+.logo:hover,
+.logo:focus,
+#hero .navbar-default .navbar-brand,
+.navbar .menu li a:hover,
+.navbar .menu li a:focus,
+.single-event .sevent-time {
+	color: #0F0;
+}
+
+.speakers-slider .slick-next,
+.speakers-slider .slick-prev,
+#venue,
+.popular-price .price-tag,
+.navbar .navbar-toggle,
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover,
+.schedule-menu li a:hover,
+.schedule-menu li a:focus,
+.schedule-menu li.active a,
+.schedule-menu li.active a:hover,
+.schedule-menu li.active a:focus {
+	background-color: #0F0;
+}
+
+.social-media a:hover,
+.social-media a:focus {
+	border: 1px solid #FF0;
+	background-color: #0F0;
+	color: #333;
+}
+
+.contact-form .form-control:focus,
+.schedule-menu li a {
+	border: 2px solid #FF0;    
+} 
+
+.send-msg-btn,
+.send-msg-btn:focus,
+.register-btn:hover,
+.register-btn:focus,
+.popular-price .register-btn {
+	border: 1px solid #0F0;
+	background-color: transparent;
+}
+
+.faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #0F0;
+
+}
+
+.reg-submit-btn:hover,
+.reg-submit-btn:focus {
+	background-color: #0F0;
+	border: 2px solid #FF0;
+	color: #000;
+}
