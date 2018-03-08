@@ -584,17 +584,27 @@ button:focus {
 	width: 100%;
 }
 
+#schedule h4 {
+
+	font-family: 'FantasqueSansMonoRegular';
+
+	font-size: 20px;
+
+}
 .schedule-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 150px 0;	/*padding: 100px 0;*/
 	width: 100%;
+
+	width: 100%;
+
 }
 
 .schedule-content-area  {
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 20px;
 	width: 100%;
 }
 
@@ -626,22 +636,63 @@ button:focus {
 }
 
 .schedule-content{
+	display: inline;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 0 150px;
 	margin-top: 50px;
 }
 
-.event-timeline ul li {
+.schedule-content .panel-default {
+	border-radius: 0;
+	border-color: #0f0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
+}
+
+.schedule-content .panel-default > .panel-heading {
+	color: #FF0;
+	background-color: #000;
+	border-color: #0f0;
+	padding: 0;
+}
+
+.schedule-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	text-align: left;
+	background-color: #000;
+}
+
+
+.schedule-content .panel-title {
+	text-align: left;
+	font-weight: 300;
+}
+
+.schedule-content .panel-title a {
+	display: block;
+	padding: 12px 15px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.schedule-content .panel-title a>span {
+	margin-right: 5px;
+}
+
+/*.event-timeline table tr td {
 	list-style-type: none;
 	position: relative;
 	width: 2px;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 30px;
 	background-color: #ddd;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.event-timeline ul li::after {
+.event-timeline table tr td::after {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -653,8 +704,7 @@ button:focus {
 	background: inherit;
 }
 
-
-.event-timeline ul li .single-event {
+.event-timeline table tr td .single-event {
 	background-color: #fff;
 	-webkit-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
 	-moz-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
@@ -666,16 +716,17 @@ button:focus {
 	text-align: left;
 }
 
-.event-timeline ul li:nth-child(2n) .single-event {
+.event-timeline table tr td:nth-child(2n) .single-event {
 	left: 50px;
 }
 
-.event-timeline ul li:nth-child(2n+1) .single-event {
+.event-timeline table tr td:nth-child(2n+1) .single-event {
 	left: -450px;
 	text-align: right;
 }
+*/
 
-.event-timeline ul li .single-event img {
+.event-timeline table tr td .single-event img {
 	height: 80px;
 	width: 80px;
 	float: left;
@@ -689,7 +740,7 @@ button:focus {
 	margin-left: 15px;
 }
 
-.event-timeline ul li .single-event::before {
+.event-timeline table tr td .single-event::before {
 	content: '';
 	position: absolute;
 	top: 23px;
@@ -698,28 +749,28 @@ button:focus {
 	border-style: solid;
 }
 
-.event-timeline ul li:nth-child(2n+1) .single-event::before {
+.event-timeline table tr td:nth-child(2n+1) .single-event::before {
 	right: -15px;
 	border-width: 8px 0 8px 16px;
 	border-color: transparent transparent transparent #fff;
 }
 
-.event-timeline ul li:nth-child(2n) .single-event::before {
+.event-timeline table tr td:nth-child(2n) .single-event::before {
 	left: -16px;
 	border-width: 8px 16px 8px 0;
 	border-color: transparent #fff transparent transparent;
 }
 
-.event-timeline ul li .single-event h3 {
+.event-timeline table tr td .single-event h3 {
 	margin-bottom: 5px;
 	font-size: 16px;
 }
 
-.event-timeline ul li .single-event p {
+.event-timeline table tr td .single-event p {
 	margin-bottom: 5px;
 }
 
-.event-timeline ul li .single-event span {
+.event-timeline table tr td .single-event span {
 	font-size: 12px;
 }
 
@@ -738,10 +789,6 @@ button:focus {
 	float: left;
 	position: relative;
 	width: 100%;
-/*	background-color: #fff;
-	display: inline;
-	float: left;
-	width: 100%;*/
 }
 
 #speakers::before {
@@ -1542,6 +1589,7 @@ button:focus {
 		float: left;
 		margin-right: 15px;
 		margin-left: 0;
+		padding: 0; /* check */
 	}
 
 	.video-iframe-area {
