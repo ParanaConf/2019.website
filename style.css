@@ -13,7 +13,7 @@ Version: 1.0
 #MENU 
 #ABOUT US
 #VIDEO
-#SCHEDULE
+#TALKS
 #SPEAKERS
 #VENUE
 #PRICING PLANS
@@ -574,68 +574,29 @@ button:focus {
 
 
 /*--------------------*/
-/* EVENT SCHEDULE */
+/* TALKS */
 /*--------------------*/
 
-#schedule {
+#talks {
 	background-color: #333;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-#schedule h4 {
-
+#talks h4 {
 	font-family: 'FantasqueSansMonoRegular';
-
-	font-size: 20px;
-
+	font-size: 16px;
 }
-.schedule-area {
+
+.talks-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;	/*padding: 100px 0;*/
-	width: 100%;
-
-	width: 100%;
-
-}
-
-.schedule-content-area  {
-	display: inline;
-	float: left;
-	margin-top: 20px;
+	padding: 150px 0;
 	width: 100%;
 }
 
-.schedule-menu {
-	text-align: center;
-	border: none;
-}
-
-
-.schedule-menu li {
-	float: none;
-	display: inline-block;
-}
-
-.schedule-menu li a {
-	border-radius: 0;
-	margin: 0 10px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.schedule-menu li a:hover,
-.schedule-menu li a:focus,
-.schedule-menu li.active a,
-.schedule-menu li.active a:hover,
-.schedule-menu li.active a:focus {
-	color: #fff;
-}
-
-.schedule-content{
+.talks-content {
 	display: inline;
 	float: left;
 	width: 100%;
@@ -644,31 +605,31 @@ button:focus {
 	margin-top: 50px;
 }
 
-.schedule-content .panel-default {
+.talks-content .panel-default {
 	border-radius: 0;
 	border-color: #0f0;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
 }
 
-.schedule-content .panel-default > .panel-heading {
+.talks-content .panel-default > .panel-heading {
 	color: #FF0;
-	background-color: #000;
+	background-color: #222;
 	border-color: #0f0;
 	padding: 0;
 }
 
-.schedule-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+.talks-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	text-align: left;
 	background-color: #000;
 }
 
 
-.schedule-content .panel-title {
+.talks-content .panel-title {
 	text-align: left;
 	font-weight: 300;
 }
 
-.schedule-content .panel-title a {
+.talks-content .panel-title a {
 	display: block;
 	padding: 12px 15px;
 	-webkit-transition: all 0.5s;
@@ -676,57 +637,11 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.schedule-content .panel-title a>span {
+.talks-content .panel-title a>span {
 	margin-right: 5px;
 }
 
-/*.event-timeline table tr td {
-	list-style-type: none;
-	position: relative;
-	width: 2px;
-	margin: 0 auto;
-	padding-top: 30px;
-	background-color: #ddd;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.event-timeline table tr td::after {
-	content: '';
-	position: absolute;
-	left: 50%;
-	top: 70px;
-	transform: translateX(-50%);
-	height: 24px;
-	width: 24px;
-	border-radius: 50%;
-	background: inherit;
-}
-
-.event-timeline table tr td .single-event {
-	background-color: #fff;
-	-webkit-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
-	-moz-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
-	box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
-	position: relative;
-	top: 0;
-	width: 400px;
-	padding: 15px;
-	text-align: left;
-}
-
-.event-timeline table tr td:nth-child(2n) .single-event {
-	left: 50px;
-}
-
-.event-timeline table tr td:nth-child(2n+1) .single-event {
-	left: -450px;
-	text-align: right;
-}
-*/
-
-.event-timeline table tr td .single-event img {
+.talks-content div .single-event img {
 	height: 80px;
 	width: 80px;
 	float: left;
@@ -734,13 +649,13 @@ button:focus {
 	margin-right: 15px;
 }
 
-.event-timeline ul li:nth-child(2n+1) .single-event img {
+.talks-content div:nth-child(2n+1) .single-event img {
 	float: right;
 	margin-right: 0;
 	margin-left: 15px;
 }
 
-.event-timeline table tr td .single-event::before {
+.talks-content div .single-event::before {
 	content: '';
 	position: absolute;
 	top: 23px;
@@ -749,31 +664,30 @@ button:focus {
 	border-style: solid;
 }
 
-.event-timeline table tr td:nth-child(2n+1) .single-event::before {
+.talks-content div:nth-child(2n+1) .single-event::before {
 	right: -15px;
 	border-width: 8px 0 8px 16px;
 	border-color: transparent transparent transparent #fff;
 }
 
-.event-timeline table tr td:nth-child(2n) .single-event::before {
+.talks-content div:nth-child(2n) .single-event::before {
 	left: -16px;
 	border-width: 8px 16px 8px 0;
 	border-color: transparent #fff transparent transparent;
 }
 
-.event-timeline table tr td .single-event h3 {
+.talks-content div .single-event h3 {
 	margin-bottom: 5px;
 	font-size: 16px;
 }
 
-.event-timeline table tr td .single-event p {
+.talks-content div .single-event p {
 	margin-bottom: 5px;
 }
 
-.event-timeline table tr td .single-event span {
+.talks-content div .single-event span {
 	font-size: 12px;
 }
-
 
 /*--------------------*/
 /* SPEAKERS */
@@ -1569,27 +1483,8 @@ button:focus {
 		line-height: 32px;
 	}
 
-	.event-timeline ul li {
-		margin-left: 15%;
-	}
-
-	.event-timeline ul li:nth-child(2n+1) .single-event {
-		left: 50px;
-		text-align: left;
-	}
-
-	.event-timeline ul li:nth-child(2n+1) .single-event::before {
-		right: auto;
-		left: -16px;
-		border-width: 8px 16px 8px 0;
-		border-color: transparent #fff transparent transparent;
-	}
-
-	.event-timeline ul li:nth-child(2n+1) .single-event img {
-		float: left;
-		margin-right: 15px;
-		margin-left: 0;
-		padding: 0; /* check */
+	.talks-content {
+		padding: 0;
 	}
 
 	.video-iframe-area {
@@ -1802,31 +1697,7 @@ button:focus {
 		font-size: 20px;
 	}
 
-	.schedule-content {
-		margin-top: 30px;
-	}
-	
-	.schedule-menu li {
-		margin-bottom: 15px;
-	}
-
-	.schedule-menu li a {
-		font-size: 15px;
-	}
-
-	.event-timeline ul li {
-		margin-left: 5%;
-	}
-
-	.event-timeline ul li .single-event,
-	.event-timeline ul li:nth-child(2n+1) .single-event,
-	.event-timeline ul li:nth-child(2n) .single-event {
-		left: 30px;
-		width: 350px;
-	}
-
-	.event-timeline ul li .single-event h3 {
-		margin-bottom: 5px;
+	.talks-content .panel-title {
 		font-size: 14px;
 	}
 
@@ -1888,13 +1759,6 @@ button:focus {
 	h2 {
 		font-size: 25px;
 	}
-
-	.event-timeline ul li .single-event, 
-	.event-timeline ul li:nth-child(2n+1) .single-event, 
-	.event-timeline ul li:nth-child(2n) .single-event {
-		left: 30px;
-		width: 280px;
-	}
 }
 
 
@@ -1903,13 +1767,6 @@ button:focus {
 
 	.video-iframe-area {
 		padding: 30% 5%;
-	}
-
-	.event-timeline ul li .single-event, 
-	.event-timeline ul li:nth-child(2n+1) .single-event, 
-	.event-timeline ul li:nth-child(2n) .single-event {
-		left: 30px;
-		width: 250px;
 	}
 
 	h2 {
