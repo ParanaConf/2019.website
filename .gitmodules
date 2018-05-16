@@ -1,0 +1,3 @@
+[submodule "presentaciones"]
+	path = presentaciones
+	url = git@github.com:ParanaConf/2018.presentations
