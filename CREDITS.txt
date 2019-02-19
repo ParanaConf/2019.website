@@ -33,24 +33,3 @@ Font Awesome :
 	Website URL : http://fortawesome.github.io/Font-Awesome/
 	License : MIT 
 	License URL : http://fortawesome.github.io/Font-Awesome/license/
-
-
-Google Fonts : 
-
-	Open Sans Font:
-	Website URL : https://fonts.google.com/specimen/Open+Sans
-	License : Apache License, version 2.0
-	License URL : http://www.apache.org/licenses/LICENSE-2.0.html
-	
-	Montserrat Font:
-	Website URL : https://fonts.google.com/specimen/Open+Sans
-	License : SIL Open Font License, Version 1.1.
-	License URL : http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-
-	
-	
-
- 			
-	
-
-

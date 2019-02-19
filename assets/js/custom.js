@@ -3,7 +3,7 @@
 	* Version: 1.0	
 	* Template Scripts
 	* Author: chinosoliard
-	* Author URI: http://www.chinosoliard.com
+	* Author URI: https://www.chinosoliard.com
 
 	Custom JS
 	
@@ -42,7 +42,7 @@
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
 	
-	$('#event-counter').countdown('2018/03/29 9:00:00').on('update.countdown', function(event) {
+	$('#event-counter').countdown('2019/04/18 9:00:00').on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
 	    + '<span class="event-counter-block"><span>%D</span> DIAS</span> '
 	    + '<span class="event-counter-block"><span>%H</span> HORAS</span> '

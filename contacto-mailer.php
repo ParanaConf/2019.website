@@ -36,7 +36,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "contacto@paranaconf.org";
+        $recipient = "paranaconf@protonmail.ch";
 
         // Set the email subject.
         $subject = "[PARANACONF] Contacto de $name";
